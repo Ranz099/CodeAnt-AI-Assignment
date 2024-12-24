@@ -1,0 +1,63 @@
+.stats-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+  }
+  
+  .stats-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h4 {
+    font-size: 1.5rem;
+    color: #0066ff;
+    margin-bottom: 0.25rem;
+  }
+  
+  .stats-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .trend-indicator {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trend-up {
+    color: #00c853;
+    font-weight: 500;
+  }
+  
+  .trend-period {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .issues-fixed {
+    text-align: right;
+  }
+  
+  .issues-fixed h4 {
+    font-size: 1.5rem;
+    color: #0066ff;
+  }

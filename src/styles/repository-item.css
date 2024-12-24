@@ -1,0 +1,79 @@
+.repository-item {
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.repository-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.repo-name-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.repo-name {
+  font-size: 1.1rem;
+  color: #0066ff;
+}
+
+.visibility-badge {
+  padding: 0.25rem 0.5rem;
+  background: #f0f0f0;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.repo-info {
+  display: flex;
+  gap: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .repository-item {
+      padding: 1rem;
+      flex-direction: column; /* Stack content vertically */
+      align-items: flex-start;
+      gap: 0.5rem; /* Reduce spacing */
+  }
+
+  .repo-size{
+    transform: translateY(130%);
+    font-size: 0.7rem;
+  }
+
+  .repo-header {
+      flex-direction: row;
+      align-items: flex-start; /* Align items to the start */
+      gap: 0.5rem; /* Add spacing between name and visibility badge */
+  }
+
+  .repo-name {
+      font-size: 1rem; /* Reduce font size for mobile */
+  }
+
+  .visibility-badge {
+      font-size: 0.75rem; /* Reduce badge font size */
+      padding: 0.2rem 0.4rem;
+  }
+
+  .repo-info {
+      flex-direction: row; /* Stack repository details */
+      gap: 0.3rem; /* Reduce spacing */
+      font-size: 0.85rem; /* Adjust font size */
+  }
+}

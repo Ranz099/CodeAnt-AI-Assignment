@@ -1,0 +1,138 @@
+.app-layout {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-container {
+    width: 250px;
+    background: white;
+    border-right: 1px solid #e0e0e0;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+}
+
+.main-container {
+    margin-left: 250px; 
+    flex-grow: 1;
+    padding: 2rem;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.repository-container {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.repository-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.repository-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.add-repo-btn {
+    padding: 0.5rem 1rem;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.repository-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.repository-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.repository-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.repo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.repo-name-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.repo-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0066ff;
+}
+
+.visibility-badge {
+    padding: 0.25rem 0.5rem;
+    background: #f0f0f0;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.repo-info {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.repo-info span {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .repository-item {
+        padding: 1rem; 
+    }
+
+    .main-container {
+        margin-left:0%;
+        transform: translateY(10%);
+    }
+
+    .sidebar-container{
+        width: 100%;
+        height: 7%;
+    }
+
+    .sidebar-container.visible{
+        width: 100%;
+        height: 100%;
+    }
+}
+
