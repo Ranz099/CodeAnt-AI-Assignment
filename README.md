@@ -1,6 +1,6 @@
 # <span style="color:blue;">**CodeAnt AI Assignment**</span>
 
-This repository contains the frontend implementation for the CodeAnt AI application. The project includes components for the **Header**, **Login**, **Repositories**, and **Footer**, built using **React.js**. Below are the details about the folder structure, installation, and how to run the application.
+This repository contains the frontend implementation for the CodeAnt AI application. The project includes components for the **Header**, **Login**, **Repositories**, built using **React.js**. Below are the details about the folder structure, installation, and how to run the application.
 
 ---
 
@@ -8,7 +8,7 @@ This repository contains the frontend implementation for the CodeAnt AI applicat
 1. **Header Component**: Displays the application name and navigation links.
 2. **Login Screen**: Provides options for users to log in using **GitHub**, **Bitbucket**, **Azure DevOps**, or **GitLab**.
 3. **Repositories Screen**: Lists repositories with details such as **language**, **size**, and **last updated time**.
-4. **Footer Component**: Contains the **copyright notice** and additional information.
+   
 
 ---
 
@@ -16,7 +16,7 @@ This repository contains the frontend implementation for the CodeAnt AI applicat
 - **React.js**: Framework for building user interfaces.
 - **CSS**: For styling components.
 - **JavaScript (ES6+)**: Programming language for functionality.
-- **Node.js**: For running the development server.
+
 
 ---
 
@@ -119,7 +119,6 @@ Follow these detailed steps to set up and run the application on your local mach
 
 ### <span style="color:purple;">**Notes**</span>
 
-- Ensure that your **Node.js** version is compatible with React (LTS versions are recommended).
 - Keep your **browser** and **editor** updated for the best experience.
 
 ---
