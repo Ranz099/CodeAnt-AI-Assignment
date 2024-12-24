@@ -1,10 +1,10 @@
-# **CodeAnt AI Assignment**
+# <span style="color:blue;">**CodeAnt AI Assignment**</span>
 
 This repository contains the frontend implementation for the CodeAnt AI application. The project includes components for the **Header**, **Login**, **Repositories**, and **Footer**, built using **React.js**. Below are the details about the folder structure, installation, and how to run the application.
 
 ---
 
-## **Features**
+## <span style="color:green;">**Features**</span>
 1. **Header Component**: Displays the application name and navigation links.
 2. **Login Screen**: Provides options for users to log in using **GitHub**, **Bitbucket**, **Azure DevOps**, or **GitLab**.
 3. **Repositories Screen**: Lists repositories with details such as **language**, **size**, and **last updated time**.
@@ -12,7 +12,7 @@ This repository contains the frontend implementation for the CodeAnt AI applicat
 
 ---
 
-## **Technologies Used**
+## <span style="color:orange;">**Technologies Used**</span>
 - **React.js**: Framework for building user interfaces.
 - **CSS**: For styling components.
 - **JavaScript (ES6+)**: Programming language for functionality.
@@ -20,11 +20,11 @@ This repository contains the frontend implementation for the CodeAnt AI applicat
 
 ---
 
-## **How to Run Locally**
+## <span style="color:purple;">**How to Run Locally**</span>
 
 Follow these detailed steps to set up and run the application on your local machine:
 
-### **Prerequisites**
+### <span style="color:red;">**Prerequisites**</span>
 
 1. **Install Node.js**:
    - Download and install Node.js from the [official website](https://nodejs.org/).
@@ -40,7 +40,7 @@ Follow these detailed steps to set up and run the application on your local mach
 
 ---
 
-### **Steps**
+### <span style="color:blue;">**Steps**</span>
 
 1. **Clone the Repository**:
    - Open a terminal in the location where you want to save the project.
@@ -92,7 +92,7 @@ Follow these detailed steps to set up and run the application on your local mach
 
 ---
 
-### **Troubleshooting**
+### <span style="color:red;">**Troubleshooting**</span>
 
 1. **If you encounter errors** during setup or running:
    - Delete `node_modules` and `package-lock.json`:
@@ -117,7 +117,7 @@ Follow these detailed steps to set up and run the application on your local mach
 
 ---
 
-### **Notes**
+### <span style="color:purple;">**Notes**</span>
 
 - Ensure that your **Node.js** version is compatible with React (LTS versions are recommended).
 - Keep your **browser** and **editor** updated for the best experience.
