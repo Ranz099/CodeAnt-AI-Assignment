@@ -1,21 +1,18 @@
-# CodeAnt AI Assignment
+# **CodeAnt AI Assignment**
 
-This repository contains the frontend implementation for the CodeAnt AI application. The project includes components for the header, login, repositories, and footer, built using **React.js**. Below are the details about the folder structure, installation, and how to run the application.
-
----
-
+This repository contains the frontend implementation for the CodeAnt AI application. The project includes components for the **Header**, **Login**, **Repositories**, and **Footer**, built using **React.js**. Below are the details about the folder structure, installation, and how to run the application.
 
 ---
 
-## Features
+## **Features**
 1. **Header Component**: Displays the application name and navigation links.
-2. **Login Screen**: Provides options for users to log in using GitHub, Bitbucket, Azure DevOps, or GitLab.
-3. **Repositories Screen**: Lists repositories with details such as language, size, and last updated time.
-4. **Footer Component**: Contains the copyright notice and additional information.
+2. **Login Screen**: Provides options for users to log in using **GitHub**, **Bitbucket**, **Azure DevOps**, or **GitLab**.
+3. **Repositories Screen**: Lists repositories with details such as **language**, **size**, and **last updated time**.
+4. **Footer Component**: Contains the **copyright notice** and additional information.
 
 ---
 
-## Technologies Used
+## **Technologies Used**
 - **React.js**: Framework for building user interfaces.
 - **CSS**: For styling components.
 - **JavaScript (ES6+)**: Programming language for functionality.
@@ -23,11 +20,11 @@ This repository contains the frontend implementation for the CodeAnt AI applicat
 
 ---
 
-## How to Run Locally
+## **How to Run Locally**
 
 Follow these detailed steps to set up and run the application on your local machine:
 
-### Prerequisites
+### **Prerequisites**
 
 1. **Install Node.js**:
    - Download and install Node.js from the [official website](https://nodejs.org/).
@@ -36,14 +33,14 @@ Follow these detailed steps to set up and run the application on your local mach
      node -v
      npm -v
      ```
-     These should return the installed versions of Node.js and npm (Node Package Manager).
+     These should return the installed versions of **Node.js** and **npm** (Node Package Manager).
 
 2. **Install a Code Editor**:
    - Install [Visual Studio Code (VS Code)](https://code.visualstudio.com/) or any other preferred editor.
 
 ---
 
-### Steps
+### **Steps**
 
 1. **Clone the Repository**:
    - Open a terminal in the location where you want to save the project.
@@ -59,31 +56,31 @@ Follow these detailed steps to set up and run the application on your local mach
      ```bash
      cd my-app
      ```
-   - Ensure you are in the same directory as `package.json`.
+   - Ensure you are in the same directory as the **package.json** file.
 
 3. **Install Dependencies**:
-   - Use npm to install the project dependencies:
+   - Use **npm** to install the project dependencies:
      ```bash
      npm install
      ```
-   - This command will download and install all the packages listed in the `package.json` file.
+   - This command will download and install all the packages listed in the **package.json** file.
 
 4. **Start the Development Server**:
    - Run the following command to start the application:
      ```bash
      npm start
      ```
-   - This will start a local development server, and the application should automatically open in your default browser.
+   - This will start a **local development server**, and the application should automatically open in your default browser.
 
 5. **Open the Application in the Browser**:
    - If the application does not open automatically, you can manually visit:
      ```
      http://localhost:3000
      ```
-   - This is the default local server address for React applications.
+   - This is the **default local server address** for React applications.
 
 6. **Make Changes and Save**:
-   - Open the project folder in VS Code using:
+   - Open the project folder in **VS Code** using:
      ```bash
      code .
      ```
@@ -91,11 +88,11 @@ Follow these detailed steps to set up and run the application on your local mach
    - Save the changes, and the browser will automatically reload the application to reflect your updates.
 
 7. **Stop the Server**:
-   - To stop the running development server, press `Ctrl + C` in the terminal.
+   - To stop the running development server, press **Ctrl + C** in the terminal.
 
 ---
 
-### Troubleshooting
+### **Troubleshooting**
 
 1. **If you encounter errors** during setup or running:
    - Delete `node_modules` and `package-lock.json`:
@@ -109,7 +106,7 @@ Follow these detailed steps to set up and run the application on your local mach
      ```
 
 2. **Check Port Availability**:
-   - If `http://localhost:3000` is already in use, you may see a prompt to run the app on another port (e.g., 3001). Type `Y` to confirm.
+   - If `http://localhost:3000` is already in use, you may see a prompt to run the app on another port (e.g., 3001). Type **Y** to confirm.
 
 3. **Clear Cache**:
    - Run this command if caching issues persist:
@@ -120,11 +117,11 @@ Follow these detailed steps to set up and run the application on your local mach
 
 ---
 
-### Notes
+### **Notes**
 
-- Ensure that your Node.js version is compatible with React (LTS versions are recommended).
-- Keep your browser and editor updated for the best experience.
+- Ensure that your **Node.js** version is compatible with React (LTS versions are recommended).
+- Keep your **browser** and **editor** updated for the best experience.
 
 ---
 
-By following these steps, you should be able to successfully run the application locally. If you encounter any issues, feel free to reach out for assistance.
+By following these steps, you should be able to successfully run the application locally.
